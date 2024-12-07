@@ -1,0 +1,23 @@
+-- File : 
+-- Autor : 
+-- Date : 
+-- Description : 
+
+library ieee;
+use ieee.numeric_std.all;
+
+entity VHDL_Component is
+    port(
+        horloge : in std_logic;  -- Clock input
+        reset : in std_logic;    -- Reset input
+        -- Insert input ports below
+        input_bit : in std_logic_vector(3 downto 0);
+        -- Insert output ports below
+        output_bit : out std_logic_vector(3 downto 0)  -- example
+    );
+end VHDL_Component;
+
+architecture Behavioral of VHDL_Component is
+begin
+    -- Insert your architecture implementation here
+end Behavioral;
